@@ -84,7 +84,6 @@ Straighter_Sample/
 
 - You can **copy** files/classes (e.g., `GSensor.cs`, `RawHID.cs`) directly into your app.
 - Or **add as a project** and reference it.
-- Both samples are **MIT-licensed**, so adapt freely (see [LICENSE](./LICENSE)).
 
 ---
 
@@ -94,7 +93,3 @@ This repo is **open source** for learning and reuse, but we don’t accept pull 
 > Why no PRs? We keep the sample minimal and stable for documentation and support purposes.
 
 ---
-
-## License
-
-Released under the **MIT License**. See [LICENSE](./LICENSE).
