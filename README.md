@@ -6,6 +6,7 @@ This repository contains two minimal **Windows Forms** sample apps that demonstr
 - **Straighter_Sample** — uses `HidSharp.dll` to talk to a Straighter.
 
 > These samples are intentionally simple: drop them into your own solution or fork this repo and adapt for your needs.
+> An executable file is also included, which you can run directly.
 
 ---
 
