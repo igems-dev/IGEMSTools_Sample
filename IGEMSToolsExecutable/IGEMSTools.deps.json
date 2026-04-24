@@ -1,0 +1,166 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IGEMSTools/1.0.0": {
+        "dependencies": {
+          "CoralCore.Paint": "8.0.7",
+          "HidSharp": "2.1.0.0",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
+        },
+        "runtime": {
+          "IGEMSTools.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.38",
+            "fileVersion": "10.0.19041.55"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.48161"
+          }
+        }
+      },
+      "CoralCore.Base/8.0.7": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/net8.0/Coral.Base.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
+          }
+        }
+      },
+      "CoralCore.Calc/8.0.7": {
+        "dependencies": {
+          "CoralCore.Base": "8.0.7",
+          "System.Drawing.Common": "8.0.19"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Coral.Calc.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "CoralCore.Paint/8.0.7": {
+        "dependencies": {
+          "CoralCore.Base": "8.0.7",
+          "CoralCore.Calc": "8.0.7",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Coral.Paint.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Win32.SystemEvents/8.0.0": {},
+      "System.Data.DataSetExtensions/4.5.0": {},
+      "System.Drawing.Common/8.0.19": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1925.36703"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "HidSharp/2.1.0.0": {
+        "runtime": {
+          "HidSharp.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IGEMSTools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoralCore.Base/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BEsQ55W82YLJpjJ7c8i2cbkaj3dcI10SPllLBUe2Ul0n4EqCnb2VzVHb7HBhGVIeoQ4ZIHNuuBlwfmc4panBYA==",
+      "path": "coralcore.base/8.0.7",
+      "hashPath": "coralcore.base.8.0.7.nupkg.sha512"
+    },
+    "CoralCore.Calc/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fBLtP373HbLKeuIhXJMLEL1ElBtUYnGOruhyNEqTACNBnPbrrHOis3FMU8WcMcLGpniynYoeVlVDo/QU363NTQ==",
+      "path": "coralcore.calc/8.0.7",
+      "hashPath": "coralcore.calc.8.0.7.nupkg.sha512"
+    },
+    "CoralCore.Paint/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dAw1glN5SJ1HMu9uMMrmb/J4KqSodnrpjeu6wgAd/jU2DQNxipZszMpLOGK54p+DNl9S8MXKdKe4BFfHaXeWww==",
+      "path": "coralcore.paint/8.0.7",
+      "hashPath": "coralcore.paint.8.0.7.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UWMINQeKPH2+t/4oNySDVPf7URFMYCRdkAG1s+2nLyHauu4GiyIoBjSHxN3aNULCNmyHB+ByU1TQ1jtMi7G6wQ==",
+      "path": "system.drawing.common/8.0.19",
+      "hashPath": "system.drawing.common.8.0.19.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "HidSharp/2.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
